@@ -1,3 +1,32 @@
 .bgform-search{
     background-color: #EEEEEE;
 }
+.bgform-table{
+    background-color: #7EE5DA;
+    border: 4px solid black;
+}
+.t-border{
+
+    border-collapse:collapse;
+    border-spacing: 15px 50px;
+}
+.container-t{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container .row .img{
+    max-width: 100%;
+    object-position: center;
+
+}
+
+.topnav-centered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
